@@ -28,7 +28,7 @@ const cube = new THREE.Mesh(geometry, material);
 //这行代码将创建的立方体（cube）添加到场景中，这样它才能在渲染时显示。
 scene.add(cube);
 //这行代码将 相机的位置 设置为 (0, 0, 5)。相机默认是位于 (0, 0, 0) 的，但为了能看到场景中的物体（比如立方体），我们将相机沿 z 轴移动了 5 个单位，确保它位于立方体前方。
-camera.position.z = 5;
+camera.position.z = 7;
 //这行代码让相机 朝向 (0, 0, 0) 坐标位置看。即使我们设置了相机的位置，lookAt 确保相机始终朝向该点，这样我们就能看到场景中的物体。
 camera.lookAt(0, 0, 0);
 
